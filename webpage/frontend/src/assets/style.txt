@@ -1,0 +1,84 @@
+﻿node {
+  diameter: 50px;
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  border-width: 2px;
+  text-color-internal: #FFFFFF;
+  font-size: 10px;
+}
+relationship {
+  color: #A5ABB6;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: "<type>";
+}
+node.* {
+  color: #C990C0;
+  border-color: #b261a5;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+}
+node.Node {
+  color: #F79767;
+  border-color: #f36924;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+}
+node.EventID_1 {
+  color: #84DCC6;
+  border-color: #84DCC6;
+  text-color-internal: #604A0E;
+  defaultCaption: "<id>";
+  caption: "{Name}";
+  diameter: 110px;
+}
+node.EventID_8 {
+  caption: "{Name}";
+  color: #ACD7EC;
+  border-color: #ACD7EC;
+  text-color-internal: #604A0E;
+  diameter: 100px;
+}
+node.EventID_10 {
+  caption: "{RuleName}";
+  color: #D9C8AE;
+  border-color: #c0a378;
+  text-color-internal: #604A0E;
+}
+node.EventID_5156 {
+  caption: "{LayerName}";
+  color: #8DCC93;
+  border-color: #5db665;
+  text-color-internal: #604A0E;
+}
+node.EventID_3 {
+  caption: "{DestinationIp}";
+  color: #8B95C9;
+  border-color: #8B95C9;
+  text-color-internal: #604A0E;
+  diameter: 80px;
+}
+node.EventID_12039 {
+  caption: "{Hostname}";
+  color: #4C8EDA;
+  border-color: #2870c2;
+  text-color-internal: #FFFFFF;
+}
+relationship.ProcessCreate {
+  shaft-width: 2px;
+}
+relationship.Network {
+  shaft-width: 2px;
+}
+relationship.CreateRemoteThread {
+  shaft-width: 2px;
+}
+relationship.PrivilegeEscalation {
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+  shaft-width: 3px;
+}

@@ -28,7 +28,8 @@ From past statistical data, we have observed a significant interaction between e
   - Each patient can contribute up to 10 data entries (an equal number of positive and negative samples).
 - Environmental Data Acquisition
   - Retrieve temperature and humidity data for the patient from the nearest monitoring station for the past 24 hours.
-  ![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/4afbe91c-dd7f-4ea0-929d-89e3beebd933)
+  
+![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/4afbe91c-dd7f-4ea0-929d-89e3beebd933)
 - Definition of Hypotension Events
   - When the systolic blood pressure at the next time point is less than 90, it is considered hypotension.
   - If the systolic blood pressure at the current time point is greater than 160 and the systolic blood pressure at the next time point is less than 100, it is also classified as hypotension.

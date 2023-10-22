@@ -48,12 +48,10 @@ We employ a Time-Aware Transformer to capture the temporal features of temperatu
   - Loss Function : Binary Cross-Entorpy With Logits
 
  # Result
- ![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/ea34456d-87cd-4aba-94a8-2867c91a2d03)
- ![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/69ca2e4c-5162-42ba-9d04-596d7d8d2549)
+![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/179e3765-6bf1-49f1-8c2c-2076c5b8e1fa)
+![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/3258ff3b-ed24-4fa9-81b1-cb417e120569)
 
-   
-
-
+# GUI 
 
 
 

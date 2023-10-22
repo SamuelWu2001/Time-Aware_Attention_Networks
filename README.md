@@ -34,6 +34,27 @@ From past statistical data, we have observed a significant interaction between e
   - If the systolic blood pressure at the current time point is greater than 160 and the systolic blood pressure at the next time point is less than 100, it is also classified as hypotension.
 
 # Model & Training
+We utilize a Transformer Encoder to extract temporal features from the patient's previous dialysis session. This includes four key parameters: systolic blood pressure, diastolic blood pressure, heart rate, and respiratory rate. The aim is to leverage information from the previous dialysis session to assist in predicting the outcome of the current one.
+
+We employ a Time-Aware Transformer to capture the temporal features of temperature and humidity over the patient's preceding 24 hours. The original input is first subjected to embedding, and then the corresponding temporal values are incorporated before feeding it into the Transformer.
+
+![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/6b97b070-5725-4df7-bfa2-e3a8d461c85a)
+
+- Hyperparameter & Optimizer
+  - Learning Rate : 0.001
+  - Epoch : 50
+  - Batch Size : 8
+  - Optimizer : Stochastic Gradient Decent (momentum : 0.9)
+  - Loss Function : Binary Cross-Entorpy With Logits
+
+ # Result
+ ![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/ea34456d-87cd-4aba-94a8-2867c91a2d03)
+ ![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/69ca2e4c-5162-42ba-9d04-596d7d8d2549)
+
+   
+
+
+
 
 
 

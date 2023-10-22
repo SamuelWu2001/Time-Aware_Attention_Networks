@@ -29,7 +29,7 @@ From past statistical data, we have observed a significant interaction between e
 - Environmental Data Acquisition
   - Retrieve temperature and humidity data for the patient from the nearest monitoring station for the past 24 hours.
   
-![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/4afbe91c-dd7f-4ea0-929d-89e3beebd933)
+  ![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/4afbe91c-dd7f-4ea0-929d-89e3beebd933)
 - Definition of Hypotension Events
   - When the systolic blood pressure at the next time point is less than 90, it is considered hypotension.
   - If the systolic blood pressure at the current time point is greater than 160 and the systolic blood pressure at the next time point is less than 100, it is also classified as hypotension.
@@ -56,7 +56,7 @@ We employ a Time-Aware Transformer to capture the temporal features of temperatu
 - Enter the patient ID in the search bar and press "Search" to check if the patient's data already exists.
 - If there is no existing data for this patient, you can add patient information using "Add," and later, you can make modifications using "Update."
 
-![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/3efa5f42-90e2-4250-8c99-1641937c39eb)
+  ![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/3efa5f42-90e2-4250-8c99-1641937c39eb)
 
 - Enter the date in the search bar and click "Search" to retrieve all dialysis records for that specific day from the historical data.
 - Use an animated progress bar to simulate dynamic predictions as they would appear in real-world applications.
@@ -64,11 +64,11 @@ We employ a Time-Aware Transformer to capture the temporal features of temperatu
 - Click the "Bed ID" button to access information about the location of the patient's bed.
 - Select "See more" to view a graphical representation of the changes in the patient's systolic pressure, diastolic pressure, respiratory rate, and heart rate during the dialysis session.
 
-![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/d0a08a8e-b336-4c29-b483-a753f38289a7)
+  ![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/d0a08a8e-b336-4c29-b483-a753f38289a7)
 
 - Clicking on Sample 1 and Sample 2 allows you to obtain testing data for a positive sample and a negative sample, respectively.
 - Download the sample file, then upload it to the website and click "Upload" to initiate the prediction process.
 - The final output will be either "Safe" or "Dangerous," representing the results predicted by the model.
 
-![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/f4bee56b-45bb-488e-91d3-081088fbbf12)
+  ![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/f4bee56b-45bb-488e-91d3-081088fbbf12)
 

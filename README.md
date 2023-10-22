@@ -7,5 +7,5 @@ Hypotension during dialysis is one of the most common complications for dialysis
 However, hypotension during dialysis is preventable through various measures such as saline infusion, lowering the dialysate temperature, and increasing dialysate calcium levels. Therefore, our primary objective is to utilize a machine learning model to predict the occurrence of hypotension during dialysis in real-time and take appropriate actions to prevent it, thereby reducing the risk for patients during the dialysis procedure.
 
 From past statistical data, we have observed a significant interaction between environmental temperature and patients' blood pressure. Therefore, we aim to incorporate temperature information using a time-series model to enhance the predictive outcomes of the model.
-![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/989c36df-0dda-46cb-8462-7a3ff9438701 =50x)
+![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/989c36df-0dda-46cb-8462-7a3ff9438701=50%x)
 ![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/aa2e772d-5499-43d3-8822-f829268408fe)

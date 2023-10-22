@@ -19,4 +19,21 @@ From past statistical data, we have observed a significant interaction between e
   - IDH Incidence Rate: Approximately 10%
 - Data Collection Period
   - 2016 to 2021
+- Vital Sign
+  - Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Respiratory Rate
+- Patient Physiological Information
+  - Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Respiratory Rate, Dialysis Blood Temperature, Blood Flow Rate, Anticipated Dialysate Volume, Weight, Gender, Age, Diabetes, Hypertension, Cardiovascular Disease
+- Dataset Splitting
+  - There are a total of 194 individuals, divided into: 120 for the training set, 40 for the validation set, and 34 for the test set.
+  - Each patient can contribute up to 10 data entries (an equal number of positive and negative samples).
+- Environmental Data Acquisition
+  - Retrieve temperature and humidity data for the patient from the nearest monitoring station for the past 24 hours.
+  - ![image](https://github.com/SamuelWu2001/Time-Aware_Attention_Networks/assets/71746159/4afbe91c-dd7f-4ea0-929d-89e3beebd933)
+- Definition of Hypotension Events
+  - When the systolic blood pressure at the next time point is less than 90, it is considered hypotension.
+  - If the systolic blood pressure at the current time point is greater than 160 and the systolic blood pressure at the next time point is less than 100, it is also classified as hypotension.
+
+# Model & Training
+
+
 
